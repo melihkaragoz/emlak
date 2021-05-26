@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: rgba(255, 255, 250, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(22, 22, 22);
+}
+
+#inputS {
+    background-color: rgba(255, 255, 250, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(22, 22, 22);
+}
+
+#inputSa {
+    background-color: rgba(255, 255, 250, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(22, 22, 22);
+}
+
+textarea {
+    background-color: rgba(255, 255, 250, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(22, 22, 22);
+}
+
+.main {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(120, 20, 40);
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+
+.for_bck {
+    width: 100%;
+    height: 55em;
+    background-image: url(../anasayfa/images/house_photos/backgro6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+    position: relative;
+    border-bottom: 1px solid black;
+    height: 60px;
+    background-color: rgb(22, 22, 22);
+}
+
+.header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 9%;
+    font-size: 13px;
+    top: 10px;
+    width: 120px;
+    background-color: black;
+}
+
+.logo h2 {
+    color: black;
+    padding: 5%;
+    background-color: black;
+    width: 100%;
+}
+
+.logo i {
+    padding: 9px;
+    background-color: rgb(22, 22, 22);
+    /* color: rgb(141, 8, 8); */
+    color: rgb(255, 255, 100);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search {
+    position: absolute;
+    right: 50%;
+    top: 12px;
+}
+
+.profile {
+    width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 1%;
+    top: 1px;
+    color: white;
+}
+
+.search input {
+    border-radius: 7px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    color: white;
+    padding: 10px;
+}
+
+.search button {
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.ilanlarim {
+    position: absolute;
+    right: 20%;
+    top: 8px;
+    border-radius: 10px;
+}
+
+.ilanlarim button {
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ilanlarim button:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.ilanlarim a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 1%;
+}
+
+#m-header {
+    font-size: 40px;
+    margin-left: 9%;
+    margin-top: 20%;
+}
+
+.bodyx {
+    width: 80%;
+    height: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 5%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-evenly;
+    background-color: rgba(200, 200, 200, 0.4);
+    border-radius: 7px;
+}
+
+.ilan-top {
+    padding: 15px 20px;
+    border-bottom: 2px solid black;
+}
+
+.bodyx #pp1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    margin-left: 15%;
+    color: darkolivegreen;
+    cursor: pointer;
+}
+
+.bodyx #pp2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.bodyx #divider-1 {
+    border-left: 2px solid black;
+    display: inline;
+    margin: 0px 25%;
+}
+
+#ilan-middle {
+    background-color: rgba(200, 200, 200, 0);
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: none;
+}
+
+#ilan-middle form {
+    margin: 1% 10%;
+    width: 80%;
+}
+
+#ilan-middle p {
+    font-weight: bold;
+}
+
+#centerP {
+    color: red;
+    font-weight: bold;
+    margin-left: 27%;
+    margin-bottom: 5%;
+}
+
+#ilan-middle textarea {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#ilan-middle input {
+    margin-bottom: 2px;
+}
+
+#ilan-middle #inputT {
+    margin-bottom: 1%;
+    width: 30%;
+}
+
+#ilan-middle #inputR {
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+#inputS {
+    width: 14%;
+    margin-bottom: 0%;
+    margin-right: 2%;
+}
+
+#ilan-middle button {
+    padding: 5px;
+    width: 30%;
+    background-color: sandybrown;
+    border-radius: 7px;
+    margin-top: 6%;
+    margin-left: 30%;
+    border: 2px solid sandybrown;
+}
+
+.selecteD {
+    width: 10%;
+}
+
+#inputImg {
+    display: inline;
+    margin-left: 25%;
+}
+
+#inputR0 {
+    margin-left: 33%;
+}
+
+#inputM {
+    width: 15%;
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+#inputO {
+    width: 15%;
+}
+
+
+/* ------------------------------------------ */
+
+#ilan-middle-2 {
+    padding: 5px;
+    width: 94%;
+    position: relative;
+}
+
+#ilan-middle-2 form {
+    margin: 2% 0px 0px 50px;
+    padding: 0px;
+    width: 76%;
+    position: relative;
+}
+
+.formMain {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    left: 48%;
+    padding: 0px;
+}
+
+#ilan-middle-2 p {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.ilanAramaButon {
+    margin-left: 0%;
+    width: 31%;
+    border-radius: 5px;
+    border: 2px solid black;
+    /* background-color: rebeccapurple; */
+    background-color: darkgreen;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+
+.ilanAramaButon:hover {
+    background-color: #552585;
+}
+
+.inL {
+    display: inline;
+}
+
+.fiyat {
+    width: 15%;
+}
+
+.radioB {
+    margin-left: 7%;
+}
+
+#inputR2 {
+    margin-left: 1%;
+}
+
+#araM {
+    width: 31%;
+}
+
+#araO {
+    width: 31%;
+}
+
+
+/* ---------------------------------------- */
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    /* height: 1000px; */
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    /* border: 3px solid rgb(33, 33, 33); */
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+}
+
+.ilan {
+    min-width: 250px;
+    height: 12em;
+    margin: 1.5%;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    /* border: 1px solid rgb(82, 82, 82); */
+    /* background-color: rgb(40, 16, 16); */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ilan img {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px
+}
+
+.ilan p {
+    padding: 0 10px 10px 10px;
+}
+
+.ilan .detay {
+    font-size: 15px;
+    background-color: white;
+    position: relative;
+}
+
+.lr {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.lrb {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.ilan .detay #p1 {
+    display: inline;
+}
+
+.ilan .detay #p2 {
+    display: inline;
+    position: absolute;
+    right: 3%;
+}
+
+.detay-2 {
+    position: relative;
+    padding-bottom: 20%;
+}
+
+.ilan .detay-2 #p3 {
+    display: inline;
+    position: absolute;
+    left: 1%;
+    bottom: 0px;
+}
+
+.ilan .detay-2 #p4 {
+    display: inline;
+    position: absolute;
+    right: 1%;
+    bottom: 0px;
+}
+
+.ilan .price {
+    font-size: 15px;
+    text-align: right;
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+.goUp {
+    width: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 15%;
+    right: 2%;
+}
+
+.goUp a {
+    padding: 0px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.goMain {
+    width: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 8%;
+    right: 2%;
+}
+
+.goMain a {
+    padding: 0px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

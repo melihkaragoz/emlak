@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+body {
+    background-image: url(../anasayfa/images/house_photos/backgro6.jpg);
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    border: 2px solid gray;
+    background-color: rgba(120, 115, 130, 0.5);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+table tr {
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+table img {
+    border-radius: 8px;
+}
+
+table tr th {
+    padding: 15px;
+}
+
+table tr td {
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    font-weight: bold;
+    min-width: 10%;
+}
+
+#aciklama-td {
+    max-width: 300px;
+    overflow: scroll;
+}
+
+#fiyat-td {
+    color: green;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+table tr td:last-child {
+    border-right: none;
+}
+
+table tr:first-child:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+table tr:nth-child(2n+1) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+table tr:nth-child(2n) {
+    background-color: rgba(200, 200, 160, 0.5)
+}
+
+table tr:hover {
+    background-color: rgba(105, 130, 95, 0.5)
+}
+
+@media(max-width:768px) {
+    table {
+        width: 100%;
+    }
+    table tr {
+        padding: 5px;
+    }
+    table tr th {
+        padding: 5px;
+    }
+    table tr td {
+        padding: 3px;
+    }
+    .displayNone {
+        display: none;
+    }
+}
+
+.goUp {
+    width: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 15%;
+    right: 2%;
+}
+
+.goUp a {
+    padding: 0px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.goMain {
+    width: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 8%;
+    right: 2%;
+}
+
+.goMain a {
+    padding: 0px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* tablet ve telefonlar için */

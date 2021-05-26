@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt başarılı</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 500px;
+            height: 30%;
+            background-color: white;
+            border: 2px solid grey;
+            border-radius: 7px;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            margin-top: 20%;
+            padding: 20px;
+        
+        }
+
+        .main strong{
+            color: green;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        .main #p1{
+            margin-top: 10%;
+            margin-bottom: 2%;
+        }
+
+        .main #p2{
+            margin-bottom: 5%;
+        }
+
+        button{
+            background-color: rgb(70, 120, 70);
+            width: 80%;
+            height: 40px;
+            border-radius: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <center><div class="main">
+        <strong>KAYIT BAŞARILI</strong>
+        <p id="p1">Hesabınız başarıyla oluşturuldu,</p>
+        <p id="p2">Kullanıcı adı ve şifreniz ile giriş yapabilirsiniz.</p>
+        <form action="control.php" method="post">
+        <button name="girisGeriDon">Giriş Yap</button>
+        </form>
+    </div></center>
+</body>
+</html>

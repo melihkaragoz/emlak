@@ -1,0 +1,8 @@
+https://www.yusufsezer.com.tr/php-mysqli-nedir/
+https://www.yusufsezer.com.tr/php-mysql-sorgulama/
+https://www.yusufsezer.com.tr/php-dersleri/
+https://mesutd.com/php-mysql-ile-cookie-cerez-session-oturum-kullanarak-login-giris-sayfasi-yapimi-ve-kullanici-yonetimi-user-management
+
+location : /opt/lampp/
+command : sudo ./xampp start
+
